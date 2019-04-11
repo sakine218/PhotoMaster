@@ -14,6 +14,7 @@
 		1121E6A82250B570006C403D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1121E6A62250B570006C403D /* LaunchScreen.storyboard */; };
 		1121E6B32250B570006C403D /* PhotoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1121E6B22250B570006C403D /* PhotoMasterTests.swift */; };
 		1121E6BE2250B570006C403D /* PhotoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1121E6BD2250B570006C403D /* PhotoMasterUITests.swift */; };
+		1121E6CC2250BF33006C403D /* yarigai.png in Resources */ = {isa = PBXBuildFile; fileRef = 1121E6CB2250BF33006C403D /* yarigai.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1121E6B92250B570006C403D /* PhotoMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1121E6BD2250B570006C403D /* PhotoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMasterUITests.swift; sourceTree = "<group>"; };
 		1121E6BF2250B570006C403D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1121E6CB2250BF33006C403D /* yarigai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yarigai.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				1121E69D2250B56F006C403D /* AppDelegate.swift */,
 				1121E69F2250B56F006C403D /* ViewController.swift */,
 				1121E6A12250B56F006C403D /* Main.storyboard */,
+				1121E6CB2250BF33006C403D /* yarigai.png */,
 				1121E6A42250B570006C403D /* Assets.xcassets */,
 				1121E6A62250B570006C403D /* LaunchScreen.storyboard */,
 				1121E6A92250B570006C403D /* Info.plist */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1121E6CC2250BF33006C403D /* yarigai.png in Resources */,
 				1121E6A82250B570006C403D /* LaunchScreen.storyboard in Resources */,
 				1121E6A52250B570006C403D /* Assets.xcassets in Resources */,
 				1121E6A32250B56F006C403D /* Main.storyboard in Resources */,
@@ -433,8 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2T75EV2YE;
+				DEVELOPMENT_TEAM = 6753PY9LZ8;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,8 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2T75EV2YE;
+				DEVELOPMENT_TEAM = 6753PY9LZ8;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
